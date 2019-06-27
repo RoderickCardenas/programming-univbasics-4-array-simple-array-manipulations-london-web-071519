@@ -7,7 +7,7 @@ def using_unshift(array, string)
 end
 
 def using_pop(array)
-  array.pop()
+  array.pop
 end
 
 def pop_with_args(array)
@@ -31,13 +31,13 @@ def using_uniq(array)
 end
 
 def using_flatten(array)
-  array.flatten()
+  array.flatten
 end
 
 def using_delete(array, string)
-  
+  array.delete(string)
 end
 
 def delete_at(array, integer)
-  
+  array.delete()
 end
